@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    
+
+}
+.login-form{
+  
+   padding: 80px;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+
+    border:2px solid black;
+    line-height: 30px;
+    font-size: 16px;
+    color: rgb(26, 26, 140);
+   
+}
+.btn{
+    background-color: lightblue;
+   margin-top:10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left:60px ;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    height: 50px;
+    font-size: 20px;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+    margin-left:40px;
+
+}
+.anchor:hover{
+    color: blue;
+    text-decoration: wavy underline;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+   
+}
+.input:hover{
+    width:300px;
+    height: 40px;
+    text-decoration: wavy underline;
+    cursor: pointer;
+    height: 30;
+
+}
+.label{
+    font-size: 20px;
+}
+
+.label:hover{
+    text-decoration: wavy underline;
+    cursor: pointer;
+    font-family: cursive;
+}
+.remember-me:hover{
+    text-decoration: wavy underline;
+    cursor: pointer;
+    background-color: burlywood;
+    border-radius: 5px;
+    margin-left: 120px;
+    width: 150px;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(26, 26, 140);
+    background-color: coral;
+}
+
+h1:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    height: 50px;
+}
+.form{
+    padding-left:50px
+}
